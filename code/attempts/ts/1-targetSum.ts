@@ -1,9 +1,9 @@
-// Desafio: Soma dos dois números que somam um alvo
-// Dado um array de números e um alvo, retorne os índices dos dois números que somam o alvo.
+// Challenge: Two numbers that add up to a target
+// Given an array of numbers and a target, return the indices of the two numbers that add up to the target.
 
-// Exemplo:
+// Example:
 // Input: nums = [2, 7, 11, 15], target = 9
-// Output: [0, 1] porque nums[0] + nums[1] == 9
+// Output: [0, 1] because nums[0] + nums[1] == 9
 
 function targetSum(array: number[], targetNumber: number) {
   const map = new Map()
